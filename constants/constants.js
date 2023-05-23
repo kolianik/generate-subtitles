@@ -22,17 +22,11 @@ function getLanguageCodeForAllLanguages (languageName) {
   return foundLanguageCode
 }
 
-const whisperModelsString = 'tiny.en,tiny,base.en,base,small.en,small,medium.en,medium,large';
+const whisperModelsString = 'medium,large,large-v2';
 const modelsArray = [
-  {name: 'Tiny (English Only)', value: 'tiny.en'},
-  {name: 'Tiny', value: 'tiny'},
-  {name: 'Base (English Only)', value: 'base.en'},
-  {name: 'Base', value: 'base'},
-  {name: 'Small (English Only)', value: 'small.en'},
-  {name: 'Small', value: 'small'},
-  {name: 'Medium (English Only)', value: 'medium.en'},
   {name: 'Medium', value: 'medium'},
   {name: 'Large', value: 'large'},
+  {name: 'Large-v2', value: 'large-v2'},
 ];
 
 // available models in Libretranslate
