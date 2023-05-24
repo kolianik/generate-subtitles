@@ -37,12 +37,12 @@ form.form#form
   .group
     label(for='file') Select (or drop) file
     input#file(type='file')
-  if !ytdlp
+  if ytdlp
     .group
       label#disable-download-link(for='downloadLink') Enter a link for automatic download
         p.disabled-paste-button PASTE
       input(disabled #disable-download-link style="cursor:pointer;")(type='text' value="Paid Feature, More Info Coming Soon")
-  if ytdlp
+  if !ytdlp
     label(for='downloadLink') Enter a link for automatic download
       p.paste-button PASTE
     input#downloadLink(type='text' placeholder="Enter a link to a video here")
