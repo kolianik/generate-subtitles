@@ -38,7 +38,7 @@ sudo chmod a+rx /usr/local/bin/yt-dlp  # Make executable
 Then:
 
 ```shell
-git clone https://github.com/mayeaux/generate-subtitles
+git clone https://github.com/kolianik/generate-subtitles
 cd generate-subtitles
 npm install
 npm start
